@@ -1,15 +1,38 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
+<!--script<script setup>-->
+<!--import HelloWorld from './components/HelloWorld.vue'-->
+<!--import TheWelcome from './components/TheWelcome.vue'-->
+<!--</script>-->
 
 <template>
-  <header>
-    <img alt="" class="logo" src="https://ae01.alicdn.com/kf/S0793b2867ea244e5be309ab3fc9c4ab4E/Stiker-Mobil-Warna-warni-Kepala-Banteng-Marah-Lucu-Stiker-PVC-Aksesori-Eksterior-Sepeda-Motor-Mobil-untuk.jpg" width="125" height="125"/>
-    <div class="wrapper">
-      <HelloWorld msg="BANTENG KU GANTENG" />
+  <nav class="navbar navbar-expand-lg bg-light">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fikri</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </header>
+  </nav>
+  <nav class="navbar navbar-dark bg-dark">
+    <!-- Navbar content -->
+  </nav>
+
 
 </template>
 
